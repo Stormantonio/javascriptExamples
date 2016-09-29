@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // Числа Фибоначчи
+
+    /*// Вычисление рекурсией (медленное)
+     function fib(n) {
+     return n <= 1 ? n : fib(n - 1) + fib(n - 2);
+     }
+     alert(fib(3));  // 2
+     alert(fib(7));  // 13
+     // alert(fib(77));  // не запускаем, подвесит браузер*/
+
+
+
+    /*// Алгоритм вычисления в цикле
+     function fib(n) {
+     var a = 1, b = 1;
+     for (var i = 3; i <= n; i++) {
+     var c = a + b;
+     a = b;
+     b = c;
+     }
+     return b;
+     }
+     alert(fib(3));
+     alert(fib(7));
+     alert(fib(77)); // // 5527939700884757*/
+
+
+    /*// Свойство str.length
+     alert("Привет, мир!". length);
+
+     var str = "Hello!";
+     alert(str.length);*/
+
+
+    /*// Метод str.toUpperCase()
+     var hello = 'Hello world!';
+     alert(hello.toUpperCase());*/
+
+
+
+    /*// Метод num.toFixed(n)
+     var n = 12.345;
+     alert(n.toFixed(2)); // 12.45
+     alert(n.toFixed(0)); // 12
+     alert(n.toFixed(5)); // 12.34500*/
+
+
+
+    /*// Округление
+     alert(Math.floor(3.1)); // Math.floor - округляет вниз
+     alert(Math.ceil(3.1)); // Math.ceil - округляет вверх
+     alert(Math.round(3.1)); // Math.round - округляет до ближайшего целого*/
+
+
+
+    /*// Экранирование специальных символов
+     var str = 'I\'m a JavaScript programmer';
+     alert(str);
+
+     var str1 = "I'm a JavaScript \"programmer\" ";
+     alert(str1);
+
+     var str2 = ' symbol \\ ';
+     alert(str2);*/
+
+
+
+    /*// Поиск всех вхождений
+     var str = "Ослик Иа-Иа посмотрел на виадук"; // ищем в этой строке
+     var target = "Иа"; // цель поиска
+     var pos = 0;
+     while (true) {
+     var foundPos = str.indexOf(target, pos);
+     if (foundPos == -1) break;
+
+     alert(foundPos); // нашли на этой позиции
+     pos = foundPos + 1; // продолжить поиск со следующей
+     }*/
+
+
+
+    /*// Поиск всех вхождений (более короткая версия)
+     var str = "Ослик Иа-Иа посмотрел на виадук"; // ищем в этой строке
+     var target = "Иа"; // цель поиска
+     var pos = -1;
+     while ((pos = str.indexOf(target, pos + 1)) != -1) {
+     alert(pos);
+     }*/
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

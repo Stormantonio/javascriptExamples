@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    /*var years = prompt('Сколько вам лет?', '');
+     alert('Вам ' + years + ' лет!');*/
+
+
+
+    /*var isAdmin = confirm("Вы - администратор?");
+     alert(isAdmin);*/
+
+
+
+    /*var ask = prompt('Каково «официальное» название JavaScript?', '');
+     (ask = 'ECMAScript')?
+     alert('Верно!') : alert('Не знаете? «ECMAScript»!');*/
+
+
+
+    /*var userName = prompt('Кто пришёл?', '');
+     if (userName == 'Админ') {
+     var pass = prompt('Пароль?', '');
+     if (pass == 'Чёрный Властелин') {
+     alert('Добро пожаловать!');
+     } else if (pass == null) {
+     alert('Вход отменён');
+     } else {
+     alert('Пароль неверен');
+     }
+     } else if (userName == null) {
+     alert('Вход отменён');
+     } else {
+     alert('Я вас не знаю');
+     }*/
+
+
+
+    /*var a = +'123'; // 123 (знак "+" преобразует в число)
+     var b = Number('123'); // 123, тот же эффект*/
+
+
+
+    /*function showMessage() {
+     alert('Hello!!!');
+     }
+     showMessage();*/
+
+
+
+    /*function showMessage(from, text) { // параметры from, text
+     from = "** " + from + " **"; // здесь может быть сложный код оформления
+     alert(from + ': ' + text);
+     }
+     showMessage('Маша', 'Привет!');
+     showMessage('Маша', 'Как дела?');*/
+
+
+
+    /*function showMessage(from, text) {
+     if (text == undefined) {
+     text = 'текст не передан';
+     }
+     alert(from + ': ' + text);
+     }
+     showMessage("Маша", "Привет!"); // Маша: Привет!
+     showMessage("Маша"); // Маша: текст не передан*/
+
+
+
+    /*function checkAge(age) {
+     if (age > 18) {
+     return true;
+     } else {
+     return confirm('Родители разрешили?');
+     }
+     }
+     var age = prompt('Ваш возвраст?');
+     if (checkAge(age)) {
+     alert('Доступ разрешен');
+     } else {
+     alert('В доступе отказано');
+     }*/
+
+
+
+    /*// Function Expression (функциональное выражение)
+     var sayHi = function (person) {
+     alert('Привет, ' + person);
+     };
+     sayHi('Вася');*/
+
+
+
+    /*// Function Declaration – функция, объявленная в основном потоке кода.
+     function sum(a, b) {
+     return a + b;
+     }*/
+
+
+
+
+    /*// Function Expression – объявление функции в контексте какого-либо выражения
+     var sum = function (a, b) {
+     return a + b;
+     }*/
+
+
+
+    /*// Анонимные функции
+     function ask(question, yes, no) {
+     if (confirm(question)) yes()
+     else no();
+     }
+     function showOk() {
+     alert("Вы согласились.");
+     }
+     function showCancel() {
+     alert("Вы отменили выполнение.");
+     }
+     //испольозвание
+     ask("Вы согласны?", showOk, showCancel);*/
+
+
+
+    /*// Анонимные функции - более короткая запись
+     function ask(question, yes, no) {
+     if (confirm(question)) yes()
+     else no();
+     }
+     ask(
+     "Вы согласны?",
+     function () { alert("Вы согласились."); },
+     function () { alert("Вы отменили выполнение."); }
+     );*/
+
+
+
+    /*// Вычислить факториал
+     function factorial(n) {
+     return (n != 1) ? n * factorial(n - 1) : 1;
+     }
+     alert(factorial(5));*/
+
+
+
+</script>
+
+</body>
+</html>
