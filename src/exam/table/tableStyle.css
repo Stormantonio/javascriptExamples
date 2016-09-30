@@ -1,0 +1,42 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+th {
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.class-1 {
+    text-align: left;
+    color: white;
+    background-color: darkcyan;
+}
+.class-2 {
+    color: white;
+    background-color: lightblue;
+}
+.class-3 {
+    text-align: right;
+    color: white;
+    background-color: darkcyan;
+}
+.text-1 {
+    text-align: right;
+}
+.text-2 {
+    text-align: center;
+}
+.row {
+    background-color: lightyellow;
+}
